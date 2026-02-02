@@ -205,3 +205,21 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Временные файлы
+*.tmp
+*.temp
+*.log
+
+# Данные (можно хранить, но исключать бэкапы)
+data/*.backup
+data/backups/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+#Питон
+__pycache__/
+*.pyc
+.env
